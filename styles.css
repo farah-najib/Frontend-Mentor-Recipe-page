@@ -35,6 +35,9 @@ justify-content: center;
     padding: 40px;
     margin: 40px;
 }
+h1{
+    color: var(--Stone900);
+}
 .card-img {
     width: 656px;
     height: 300px;
