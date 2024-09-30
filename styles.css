@@ -1,3 +1,5 @@
+
+
 :root {
     --White: hsl(0, 0%, 100%);
     --Stone100: hsl(30, 54%, 90%);
@@ -8,6 +10,15 @@
     --Rose800: hsl(332, 51%, 32%);
     --Rose50: hsl(330, 100%, 98%);
 }
+     @font-face {
+        font-family: "Outfit";
+        src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+      }
+
+      @font-face {
+        font-family: "Young Serif";
+        src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+      }
 /* .attribution {
     font-size: 11px;
     text-align: center;
@@ -46,6 +57,20 @@ h1 {
     height: 100%;
     border-radius: 12px;
 }
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+ul li
+{
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+ol li {
+    padding: 0 0 0.7rem 1rem;
+    line-height: 1.4rem;
+}
 li::marker {
     color: var(--Brown800);
 }
@@ -58,21 +83,15 @@ li::marker {
     height: 128px;
     border-radius: 12px;
     margin-bottom: 16px;
-    
+
 }
 
-.list-preparation li {
-    max-height: 24px;
-    padding-left: 16px;
-    margin-bottom: 5px;
-}
+
 .ingredients {
     height: 204px;
     margin-bottom: 24px;
 }
-.list-ingredients li {
-    padding-left: 16px;
-}
+
 .instructions {
     height: 332px;
 }
@@ -121,6 +140,9 @@ table {
 }
 td {
     width: 288px;
+    text-indent: 2.3rem;
+    border-bottom: 1px solid lightgray;
+    padding: 0.8rem 0 1rem 0;
 }
 td + .text-preset-4-bold {
     color: var(--Brown800);
@@ -131,3 +153,4 @@ td {
 .text-content > * {
     margin-top: 32px;
 }
+
